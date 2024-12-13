@@ -1707,7 +1707,8 @@ static int ili9881c_prepare(struct drm_panel *panel)
 	msleep(20);
 
 	gpiod_set_value_cansleep(ctx->reset, 0);
-	msleep(20);
+	//msleep(20);
+  msleep(120);
 
 	for (i = 0; i < ctx->desc->init_length; i++) {
 		const struct ili9881c_instr *instr = &ctx->desc->init[i];
