@@ -18,7 +18,8 @@
 			wm8960_mclk: wm8960_mclk {
 				compatible = "fixed-clock";
 				#clock-cells = <0>;
-				clock-frequency = <12288000>;
+				#clock-frequency = <12288000>;
+				clock-frequency = <24000000>;
 			};
 		};
 	};
