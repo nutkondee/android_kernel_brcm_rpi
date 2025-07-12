@@ -1,8 +1,10 @@
 /dts-v1/;
 /plugin/;
 
+#include <dt-bindings/gpio/gpio.h>
+
 / {
-    compatible = "brcm,bcm2711";
+    compatible = "brcm,bcm2835";
 
     fragment@0 {
         target=<&dsi1>;
