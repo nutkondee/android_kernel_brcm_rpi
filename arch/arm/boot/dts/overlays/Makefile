@@ -157,8 +157,6 @@ dtbo-$(CONFIG_ARCH_BCM2835) += \
 	iqaudio-dacplus.dtbo \
 	iqaudio-digi-wm8804-audio.dtbo \
 	iqs550.dtbo \
-	iriscm4rpi.dtbo \
-	iriscm4rpitouch.dtbo \
 	irs1125.dtbo \
 	jedec-spi-nor.dtbo \
 	justboom-both.dtbo \
@@ -337,6 +335,8 @@ dtbo-$(CONFIG_ARCH_BCM2835) += \
 	vc4-kms-dsi-generic.dtbo \
 	vc4-kms-dsi-ili9881-5inch.dtbo \
 	vc4-kms-dsi-ili9881-7inch.dtbo \
+	vc4-kms-dsi-ili9881-iris5inch.dtbo \
+	vc4-kms-dsi-ili9881-iris5incht.dtbo \
 	vc4-kms-dsi-lt070me05000.dtbo \
 	vc4-kms-dsi-lt070me05000-v2.dtbo \
 	vc4-kms-dsi-waveshare-800x480.dtbo \
